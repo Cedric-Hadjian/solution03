@@ -1,0 +1,47 @@
+body {
+  font-weight: bold;
+}
+
+.navbar-default{ /* The top box */
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-collapse ul{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.navbar-brand {   /* Text inside header */
+	font-size: 25px;
+	text-align: left;
+}
+.menu-size{
+	font-size: 35px;
+}
+
+.menu-item-size{
+	font-size:25px;
+}
+
+.nav li {
+	border-bottom:1px solid #eee;
+}
+
+
+.tall{
+	height: 1000px;
+}
+
+.styling{
+	background-color: gray;
+	border: 2px solid silver;
+	margin-top:30px;
+}
+
+@media (max-width: 767px){
+	.container{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
